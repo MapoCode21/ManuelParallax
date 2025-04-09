@@ -10,19 +10,19 @@ html, body {
 }
 
 .foto1{
-    background-image: url(imgs/IMG1.jpg);
+    background-image: url(IMG1.jpg);
     min-height: 100%;
 }
 .foto2{
-    background-image: url(imgs/IMG2.jpg);
+    background-image: url(IMG2.jpg);
     min-height: 100%;
 }
 .foto3{
-    background-image: url(imgs/IMG3.jpg);
+    background-image: url(IMG3.jpg);
     min-height: 100%;
 }
 .foto4{
-    background-image: url(imgs/IMG4.jpg);
+    background-image: url(IMG4.jpg);
     min-height: 100%;
 }
 .foto1, .foto2, .foto3, .foto4 {
