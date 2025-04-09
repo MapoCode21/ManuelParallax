@@ -1,0 +1,78 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+html, body {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  height: 100%;
+  line-height: 180px;
+  text-align: center;
+}
+
+.foto1{
+    background-image: url(imgs/IMG1.jpg);
+    min-height: 100%;
+}
+.foto2{
+    background-image: url(imgs/IMG2.jpg);
+    min-height: 100%;
+}
+.foto3{
+    background-image: url(imgs/IMG3.jpg);
+    min-height: 100%;
+}
+.foto4{
+    background-image: url(imgs/IMG4.jpg);
+    min-height: 100%;
+}
+.foto1, .foto2, .foto3, .foto4 {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.letra1{
+    color: #5d5fd8;
+    font-size: 450%;
+    top: 50%;
+
+}
+.letra2{
+    color: #ffffff;
+    font-size: 350%;
+    top: 60%;
+}
+.letra3{
+    color: #ffffff;
+    font-size: 250%;
+    top: 70%;
+}
+.letra4{
+    color: #ffffff;
+    font-size: 400%;
+    top: 30%;
+}
+.letra1, .letra2, .letra3, .letra4 {
+  position: absolute;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 0 0 10px;
+}
+.section{
+    padding: 50px 50px;
+}
+
+.dark{
+    background-color: #08092b;
+    color: #ffffff;
+}
+
+@media (max-width: 760px) {
+  .letra1{
+    font-size: 200%;
+    top: 50%;
+}
+
+}
